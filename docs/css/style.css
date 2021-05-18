@@ -69,9 +69,8 @@ body {
 .link.with-thumbnail {
   justify-content: left;
   min-height: 64px;
-  text-transform: uppercase;
 }
-.link.with-thumbnail .thumbnail-wrapper {
+.link.with-thumbnail .link-thumbnail {
   height: 100%;
 }
 .link.with-thumbnail .link-text {
@@ -352,26 +351,26 @@ img {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-.socials {
+.social-section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.socials .social {
+.social-section .social {
   animation: animate-social 0.3s 0.7s backwards;
   width: 36px;
   height: 36px;
   padding: 10px;
 }
-.socials .social > * {
+.social-section .social > * {
   width: 36px;
   height: 36px;
 }
-.links {
+.link-section {
   padding: 0 32px;
   position: relative;
 }
-.links .link {
+.link-section .link {
   --animation-timing: calc(var(--animation-delay) / 5);
   animation: animate-link calc(var(--animation-timing) + 0.4s) 0.8s backwards;
   background-color: #fff;
